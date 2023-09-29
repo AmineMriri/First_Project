@@ -1,0 +1,206 @@
+    1  mkdir glsi_b
+    2  cd glsi_b
+    3  git init
+    4  nano try1.txt
+    5  vim try1.txt
+    6  touch try1.txt
+    7  touch try2.txt
+    8  touch try3.txt
+    9  git add try1.txt
+   10  git commit -m "1st try"
+   11  git add try2.txt
+   12  git commit -m "2nd try"
+   13  git add try3.txt
+   14  git commit -m "3d try"
+   15  git log
+   16  git log --oneline
+   17  git status
+   18  cd ..
+   19  mkdir TP1
+   20  cd TP1
+   21  git init
+   22  ls -a
+   23  touch file1.txt
+   24  echo "try me" >> file1.txt
+   25  cat file1.txt
+   26  git status
+   27  git add file1.txt
+   28  git status
+   29  git commit -m "1st commit"
+   30  touch file2.txt
+   31  echo "2nd file" >> file2.txt
+   32  touch file3.txt
+   33  echo "3rd file" >> file3.txt
+   34  git add file2.txt
+   35  git commit -m "2nd commit"
+   36  git add file3.txt
+   37  git commit -m "3rd commit"
+   38  git log
+   39  git log -nbre
+   40  git log --oneline
+   41  git log --nbre
+   42  git log --2
+   43  git config --global user.name "AmineMriri"
+   44  git config --global user.email "aminemriri0@gmail.com"
+   45  echo "4th file" >> | touch file4.txt
+   46  touch file4.txt
+   47  echo "4th file" >> file4.txt
+   48  cat file4.txt
+   49  git add file4.txt
+   50  git commit -m "4th commit"
+   51  git log
+   52  git status
+   53  git clone https://github.com/AmineMriri/try_me.git
+   54  ls
+   55  git global user.name
+   56  gituser.name
+   57  git user.name
+   58  git --help
+   59  ls
+   60  cd try_me
+   61  ls
+   62  touch LocalFile
+   63  rm LocalFile
+   64  ls
+   65  touch LocalFile.txt
+   66  echo "LocalFile" >> LocalFile.txt
+   67  git add LocalFile.txt
+   68  git commit -m "LocalFile"
+   69  git push
+   70  cd ..
+   71  ls
+   72  git add try_me
+   73  git commit -m "try_me"
+   74  git push
+   75  cd ..
+   76  git clone https://github.com/AmineMriri/try_me.git
+   77  ls
+   78  git clone https://github.com/AmineMriri/TP1.git
+   79  cd TP1
+   80  git remote add https://github.com/AmineMriri/TP1.git
+   81  git remote add -f https://github.com/AmineMriri/TP1.git
+   82  git remote add https://github.com/AmineMriri/TP1.git
+   83  git push
+   84  git remote add AmineMriri https://github.com/AmineMriri/TP1.git
+   85  git push AmineMriri
+   86  yum install git
+   87  ip a
+   88  nmtui
+   89  ip a
+   90  ping 8.8.8.8
+   91  ls
+   92  cd TP1
+   93  shutdown
+   94  shutdown now
+   95  ls
+   96  cd glsi
+   97  cd glsi_b
+   98  ls
+   99  cd ..
+  100  cd TP1
+  101  ls
+  102  git clone https://github.com/AmineMriri/First_Project.git
+  103  ls
+  104  rm try_me
+  105  rm -r try_me
+  106  ls
+  107  rmdir -r -f try_me
+  108  rmdir -f try_me
+  109  rmdir try_me
+  110  rm -r try_me
+  111  ls
+  112  cd try_me
+  113  ls
+  114  cd ..
+  115  ls
+  116  cd First_Project
+  117  ls -a
+  118  echo "trythis" >>  LocalFle.txt
+  119  ls
+  120  cat LocalFile
+  121  cat LocalFile.txt
+  122  cat LocalFle.txt
+  123  git add .
+  124  git commit -m "qst 10"
+  125  git log
+  126  git status
+  127  git push
+  128  git remote
+  129  git remote -v
+  130  git pull
+  131  ssh -keygen -t ed25519
+  132  cat chemin_généré
+  133  ssh-keygen -t ed25519
+  134  cat /root/.ssh/id_ed25519
+  135  ssh-keygen -t ed25519
+  136  cat /root/.ssh/id_ed25519
+  137  cd /root/.ssh/
+  138  ls
+  139  cat /root/.ssh/id_ed25519.pub
+  140  ssh -T git@github.com
+  141  cd FirstProject
+  142  cd /FirstProject
+  143  cd ..
+  144  ls
+  145  cd TP1
+  146  ls
+  147  rm -rf First_Project
+  148  ls
+  149  git clone git@github.com:AmineMriri/First_Project.git
+  150  ls
+  151  cd First_Project
+  152  git branch
+  153  git branch "Branch1"
+  154  git branch
+  155  git checkout "Branch1"
+  156  echo "qst_6" >> filebranch1.txt
+  157  git add filebranch1.txt
+  158  git commit -m "qst_6"
+  159  git checkout main
+  160  git log
+  161  git status
+  162  git push origin Branch1
+  163  git diff filebranch1.txt
+  164  git checkout Branch1
+  165  git diff filebranch1.txt
+  166  git checkout Branch1
+  167  echo "azertazerty" >> filebranch1.txt
+  168  cat filebranch1.txt
+  169  git diff filebranch1.txt
+  170  git status
+  171  git commit -m "2nd commit"
+  172  git add .
+  173  git commit -m "2nd commit"
+  174  git log
+  175  git diff 06f0 97377
+  176  git diff 06f0 97377 --nameoneline
+  177  git diff 06f0 97377 --name oneline
+  178  git diff 06f0 97377 --name-only
+  179  git diff 06f0 97377 --name-status --oneline
+  180  git diff 06f0 97377  --oneline
+  181  git diff 06f0 97377  --name-status
+  182  git diff 06f0 97377  --name-status oneline
+  183  git diff 06f0 97377  --name-status --oneline
+  184  echo "trying qst11" >> qst11.txt
+  185  git checkout --qst11.txt
+  186  git status
+  187  git commit
+  188  git commit -m "qst11"
+  189  git add .
+  190  git commit -m "qst11"
+  191  git checkout --qst11.txt
+  192  ls
+  193  cat qst11.txt 
+  194  nano qst11.txt 
+  195  echo "azert" >>  qst11.txt 
+  196  cat qst11.txt 
+  197  git checkout qst11.txt 
+  198  git checkout --qst11.txt 
+  199  cat qst11.txt 
+  200  git checkout -b "history"
+  201  git branch -m "history" "new history"
+  202  git branch -m "history" "new_history"
+  203  git branch
+  204  git checkout git checkout Branch1
+  205  git checkout Branch1
+  206  history >> history.txt
